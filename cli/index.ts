@@ -262,7 +262,7 @@ async function serve(host: string, port: number, pathToSpec: string, options: Op
     console.timeEnd('GET ' + request.url);
   });
 
-  console.log();
+  console.log('Serving');
 
   server.listen(port, host, () => console.log(`Server started: http://${host}:${port}`));
 
